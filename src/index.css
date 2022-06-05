@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: #7d5eff;
+  --pr-colorgradient1: #8b7ad2;
+  --pr-colorgradient2: #4424d0;
+  --pr-gradient: linear-gradient( 195deg, var(--pr-colorgradient1), var(--pr-colorgradient2) );
+  --color: #344767;
+  --google: #db4437;
+  --danger-color:#ec250d;
+  --danger-border:#f33620;
+  --facebook: #4267b2;
+  --twitter: #00acee;
+  --focus-form:#1d8cf8;
+  --body-color: #f8f6f6;
+  --white-color:white;
+  --border:#ced4da;
+  --font-size: 0.9rem;
+  --line-height-1-6: 1.6;
+  --font-weight400: 400;
+  --font-family: "Outfit", sans-serif;
+  --transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  --transition-box: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  --card-shadow: rgb(0 0 0 / 10%) 0rem 0.25rem 0.375rem -0.0625rem,
+    rgb(0 0 0 / 6%) 0rem 0.125rem 0.25rem -0.0625rem;
+  --border-trans: 0px solid rgba(0, 0, 0, 0.125);
+  --box-radius: 0.5rem;
+  --rem-1: 0.5rem;
+  --rem-2: 0.8rem;
+  --rem-3: 1rem;
+  --rem-4: 1.5rem;
+  --rem-5: 1.8rem;
+  --rem-6: 2rem;
+  --rem-7: 2.5rem;
+  --rem-8: 3rem;
+  --rem-9: 3.5rem;
+  --rem-10: 4rem;
+  --rem1: 1rem;
+  --rem2: 2rem;
+  --rem3: 3rem;
+  --rem4: 4rem;
+  --rem5: 5rem;
+  --rem6: 6rem;
+  --rem7: 7rem;
+  --rem8: 8rem;
+  --rem9: 9rem;
+  --font-9: 9px;
+  --font-10: 9px;
+  --font-12: 12px;
+  --font-14: 14px;
+  --font-16: 16px;
+  --font-18: 18px;
+  --font-20: 20px;
+  --font-22: 22px;
+  --font-24: 24px;
+  --font-26: 26px;
+  --font-28: 28px;
+  --font-30: 30px;
+  --font-32: 32px;
+  --font-34: 34px;
+  --font-36: 36px;
+  --font-38: 38px;
+  --font-40: 40px;
+  --font-42: 42px;
+  --font-44: 44px;
+  --font-46: 46px;
+  --font-48: 48px;
+  --font-50: 50px;
+  --font-75: 75px;
+  --font-100: 100px;
+  --card-body:white;
+  --card-radius:0.25rem;
+}
+[theme-demo=dark] {
+  --primary-color: #7d5eff;
+  --pr-colorgradient1: #8b7ad2;
+  --pr-colorgradient2: #4424d0;
+  --pr-gradient: linear-gradient( 195deg, var(--pr-colorgradient1),var(--pr-colorgradient2) );
+  --color: #ffffffcc;
+  --google: #db4437;
+  --facebook: #4267b2;
+  --twitter: #00acee;
+  --body-color: #171941!important;
+  --font-size: 0.9rem;
+  --line-height-1-6: 1.6;
+  --font-weight400: 400;
+  --font-family: "Outfit", sans-serif;
+  --card-body:#1f2251;
+  --border:#2b3553;
 }

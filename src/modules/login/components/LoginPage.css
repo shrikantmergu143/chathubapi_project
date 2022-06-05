@@ -1,0 +1,114 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+.Login_page .login_card{
+    max-width: 500px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.card_login_top{
+    margin: -42px 0px 17px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    padding: var(--font-22);
+    border-radius: var(--card-radius);
+}
+h1{
+    font-size: var(--font-20);
+    color: var(--color);
+}
+.form-control:focus,
+.input-group:focus-within .input-group-text{
+    background-color: var(--body-color);
+    border-color: var(--border);
+}
+.form-control,
+.input-group-text{
+    background-color: transparent;
+    border-color: var(--border);
+}
+.input-group-text i,
+.input-group-text i::before{
+    line-height: var(--font-20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-group-text .fa{
+    font-size: var(--font-16);
+    line-height: var(--font-16);
+}
+.input-group-text .fi{
+    font-size: var(--font-16);
+    line-height: var(--font-16);
+}
+.form-control{
+    border-radius: var(--card-radius);
+}
+.input-group .form-control,
+.input-group .input-group-text:last-child{
+    border-radius: 0px var(--card-radius) var(--card-radius) 0px;
+}
+.input-group .input-group-text:first-child{
+    border-radius:  var(--card-radius) 0px 0px var(--card-radius);
+}
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu){
+    border-radius:  var(--card-radius) 0px 0px var(--card-radius);
+}
+.hover{
+    cursor: pointer;
+}
+
+.form-control:focus, 
+.form-control:focus+ .input-group-text, 
+.form-control:focus+ .input-group-text, 
+.form-control:focus~ .input-group-text, 
+.form-control:focus~ .input-group-text, 
+.input-group:focus-within  .input-group-text, 
+.input-group:focus-visible  .input-group-text{
+    border-color: var(--focus-form)!important;
+}
+.form-control,
+.input-group-text{
+    transition: color .3s ease-in-out,border-color .3s ease-in-out,background-color .3s ease-in-out;
+}
+.has-danger .form-control,
+.has-danger .input-group-text,
+.has-danger.input-group-focus .input-group-text,
+.has-danger.input-group-focus  .input-group-text,
+.has-danger  .input-group-text,
+.has-danger:focus-within .input-group-text,
+.has-danger:focus-within .form-control{
+    border-color: var(--danger-border)!important;
+    color: var(--danger-color)!important;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.form-check {
+    margin-top: 0.5rem;
+    padding-left: 0;
+}
+.form-check-input{
+    background-color: var(--body-color);
+    margin-left: 0px!important;
+    margin-right: 0.875rem;
+    border-color: var(--primary-color);
+}
+.form-check-input:checked{
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.social_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.justify-space{
+    justify-content: space-between;
+}

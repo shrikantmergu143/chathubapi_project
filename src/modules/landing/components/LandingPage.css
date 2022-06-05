@@ -1,0 +1,25 @@
+[theme-demo=light] {
+    color: var(--color);
+    font-size: var(--font-size);
+    line-height: var(--line-height-1-6);
+    font-weight: var(--font-weight400);
+    background-color: var(--body-color);
+}
+[theme-demo=dark] {
+    color: var(--color)!important;
+    font-size: var(--font-size);
+    line-height: var(--line-height-1-6);
+    font-weight: var(--font-weight400);
+    background-color: var(--body-color);
+}
+.landing_page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 0.5px;
+}
+.card{
+    background-color: var(--card-body)!important;
+    border-radius: var(--card-radius);
+    font-weight: 400;
+}
